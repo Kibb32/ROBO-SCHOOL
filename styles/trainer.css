@@ -1,0 +1,58 @@
+.trainer {
+    background-color: #fff;
+}
+
+.trainer .container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.trainer .trainer__title {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.trainer .trainer_list {
+    display: flex;
+    width: 1200px;
+}
+
+.trainer .trainer_item-title {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.trainer .trainer_item-text {
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trainer .trainer_link {
+    color: #D52027;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.trainer .trainer_item {
+    margin-right: 40px;
+}
+
+.trainer .trainer_item:last-child {
+    margin-right: 0px;
+}
