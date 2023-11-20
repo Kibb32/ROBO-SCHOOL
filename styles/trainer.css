@@ -13,12 +13,13 @@
     font-size: 50px;
     font-weight: 600;
     margin: 0;
-    padding: 0;
     margin-bottom: 50px;
+    padding-left: 20px;
 }
 
 .trainer .trainer_list {
     display: flex;
+    justify-content: center;
     width: 1200px;
 }
 
