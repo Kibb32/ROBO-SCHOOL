@@ -130,10 +130,10 @@ header .header-menu .header-nav li:first-child {
     height: 518px;
     background-size: cover;
     position: absolute;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
-    margin-left: 660px;
-    transform: translateY(-543px);
+    margin-left: 662px;
+    transform: translateY(-539px);
     z-index: 2;
 }
 
