@@ -7,13 +7,15 @@ body {
 
 header {
     background-color: #141024;
-    max-height: 695px;
+    /* height: 695px; */
+    border: 1px solid greenyellow;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
     border: 2px solid red;
+    position: relative;
 }
 
 /* header,
@@ -130,11 +132,11 @@ header .header-menu .header-nav li:first-child {
     height: 518px;
     background-size: cover;
     position: absolute;
-    /* border: 2px solid red; */
     text-align: center;
-    margin-left: 662px;
-    transform: translateY(-539px);
+    left: 662px;
+    top: 199px;
     z-index: 2;
+    box-sizing: border-box;
 }
 
 .imgbox img {
@@ -148,10 +150,10 @@ header .header-menu .header-nav li:first-child {
     border: 50px solid white;
     border-radius: 50%;
     z-index: 1;
-    position: relative;
+    position: absolute;
     display: inline-block;
-    margin-left: 620px;
-    transform: translateY(-522px);
+    left: 613px;
+    bottom: 0px;
 }
 
 .testbox {
