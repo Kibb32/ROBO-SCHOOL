@@ -3,26 +3,24 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Jost;
-    background-color: #141024;
-    max-width: 1920px;
 }
 
 header {
     background-color: #141024;
-}
-
-header .container {
-    width: 1200px;
-    margin: 0 auto;
-    border: 2px solid red;
     max-height: 695px;
 }
 
-header,
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+/* header,
 section,
 footer {
     padding: 120px 0;
-}
+} */
 
 .header-menu {
     border: 1px solid red;
@@ -154,4 +152,10 @@ header .header-menu .header-nav li:first-child {
     display: inline-block;
     margin-left: 620px;
     transform: translateY(-522px);
+}
+
+.testbox {
+    width: 600px;
+    height: 600px;
+    border: 2px solid green;
 }
