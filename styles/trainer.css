@@ -60,6 +60,7 @@
 
 .trainer_line-box {
     position: relative;
+    margin-bottom: 138px;
 }
 
 .trainer .trainer_line-1 {
@@ -79,4 +80,10 @@
     position: absolute;
     top: 0px;
     left: 5px;
+}
+
+.trainer_row-box {
+    position: absolute;
+    right: 200px;
+    top: -23px;
 }
