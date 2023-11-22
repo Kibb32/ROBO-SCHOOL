@@ -5,7 +5,6 @@
 .trainer .container {
     width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .trainer .trainer__title {
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: center;
     width: 1200px;
+    margin-bottom: 77px;
 }
 
 .trainer .trainer_item-title {
@@ -56,4 +56,27 @@
 
 .trainer .trainer_item:last-child {
     margin-right: 0px;
+}
+
+.trainer_line-box {
+    position: relative;
+}
+
+.trainer .trainer_line-1 {
+    width: 260px;
+    height: 5px;
+    border-radius: 40px;
+    background: #141024;
+    margin-left: 15px;
+}
+
+.trainer .trainer_line-2 {
+    width: 360px;
+    height: 5px;
+    border-radius: 40px;
+    background-color: rgba(20, 16, 36, 0.08);
+    margin-left: 10px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
 }
