@@ -1,6 +1,25 @@
-.form .containe {
+.form .container {
     width:1920px;
     height: 460px;
     background-color:#D52027 ;
     margin:0 auto;
+}
+
+.course {
+    color:white;
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 440px;
+    margin-top: 106px;
+    display: inline-block;
+}
+
+.stock {
+    color:white;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 440px;
+    margin-top: 20px;
 }
