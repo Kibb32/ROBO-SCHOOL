@@ -1,0 +1,13 @@
+.main {
+    background-color: #fff;
+}
+
+.package {
+    background-color: #fff;
+    margin-top: 138px;
+}
+
+.package .container {
+    width: 1200px;
+    margin: 0 auto;
+}
