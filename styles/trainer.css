@@ -1,0 +1,89 @@
+.trainer {
+    background-color: #fff;
+}
+
+.trainer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.trainer .trainer__title {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.trainer .trainer_list {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-bottom: 77px;
+}
+
+.trainer .trainer_item-title {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.trainer .trainer_item-text {
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trainer .trainer_link {
+    color: #D52027;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.trainer .trainer_item {
+    margin-right: 40px;
+}
+
+.trainer .trainer_item:last-child {
+    margin-right: 0px;
+}
+
+.trainer_line-box {
+    position: relative;
+    margin-bottom: 138px;
+}
+
+.trainer .trainer_line-1 {
+    width: 260px;
+    height: 5px;
+    border-radius: 40px;
+    background: #141024;
+    margin-left: 15px;
+}
+
+.trainer .trainer_line-2 {
+    width: 360px;
+    height: 5px;
+    border-radius: 40px;
+    background-color: rgba(20, 16, 36, 0.08);
+    margin-left: 10px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.trainer_row-box {
+    position: absolute;
+    right: 200px;
+    top: -23px;
+}
