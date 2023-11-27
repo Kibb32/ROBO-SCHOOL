@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/trainer.css">
+    <link rel="stylesheet" href="styles/package.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost&display=swap" rel="stylesheet">
@@ -64,5 +66,74 @@
             <span class="footer-label">&copy; ROBO.SCHOOL</span> 
         </div>
     </footer>
+
+    <main class="main">
+        <section class="trainer">
+            <div class="container">
+                <h1 class="trainer__title">Профессиональные тренеры</h1>
+                <div class="trainer_list">
+                    <div class="trainer_item">
+                        <img src="./img/trainer1.jpg" alt="" class="trainer_img">
+                        <h4 class="trainer_item-title">Ирина Лайм</h4>
+                        <p class="trainer_item-text">преподаватель по робототехнике</p>
+                        <a href="#" class="trainer_link">Подробнее</a>
+                    </div>
+                    <div class="trainer_item">
+                        <img src="./img/trainer2.jpg" alt="" class="trainer_img">
+                        <h4 class="trainer_item-title">Марина Орлова</h4>
+                        <p class="trainer_item-text">преподаватель по робототехнике</p>
+                        <a href="#" class="trainer_link">Подробнее</a>
+                    </div>
+                    <div class="trainer_item">
+                        <img src="./img/trainer3.jpg" alt="" class="trainer_img">
+                        <h4 class="trainer_item-title">Максим Петров</h4>
+                        <p class="trainer_item-text">преподаватель по программированию</p>
+                        <a href="#" class="trainer_link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="trainer_line-box">
+                        <div class="trainer_line-1"></div>
+                        <div class="trainer_line-2"></div>
+                        <div class="trainer_row-box">
+                            <a href="#" class="trainer_link">
+                                <img src="./img/arrow-left.svg" alt="" class="arrow-left">
+                                <img src="./img/arrow-right.svg" alt="" class="arrow-right">
+                            </a>
+                        </div>
+                </div>  
+            </div>
+        </section>
+        <section class="package">
+            <div class="container">
+                <h1 class="package__title">Выберите нужный пакет</h1>
+                <div class="package__box__container">
+                    <div class="package__item pro__item">
+                        <div class="package__item-content">
+                            <h2 class="package__item__title pro__title">– PRO –</h2>
+                            <p class="package__item__price pro__price">20.000 ₽</p>
+                            <p class="package__item__text  pro__text">УМК по робототехнике <br> и программированию</p>
+                            <button href="#" class="package__item__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="package__item ">
+                        <div class="package__item-content">
+                            <h2 class="package__item__title">– ROBO –</h2>
+                            <p class="package__item__price">15.000 ₽</p>
+                            <p class="package__item__text">УМК по робототехнике</p>
+                            <button href="#" class="package__item__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="package__item ">
+                        <div class="package__item-content">
+                            <h2 class="package__item__title">– PROG –</h2>
+                            <p class="package__item__price">10.000 ₽</p>
+                            <p class="package__item__text">УМК по программированию</p>
+                            <button href="#" class="package__item__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
