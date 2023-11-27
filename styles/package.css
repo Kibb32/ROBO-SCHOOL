@@ -5,9 +5,77 @@
 .package {
     background-color: #fff;
     margin-top: 138px;
+    margin: 0;
+    padding: 0;
 }
 
 .package .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.package .package__box__container {
+    display: flex;
+}
+.package .pro__item {
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    background: #141024;
+}
+
+.package__item {
+    margin-right: 40px;
+}
+
+.package__item:last-child {
+    margin-right: 0px;
+}
+
+.package .package__item-content {
+    margin: 0 auto;
+}
+
+.package .pro__title {
+    margin-top: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    line-height: 160%; /* 48px */
+    margin-bottom: 83px;
+
+}
+
+.package .pro__price {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    line-height: 160%; /* 80px */
+    margin-bottom: 20px;
+}
+
+.package .pro__text {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 160%; /* 28.8px */
+    margin-bottom: 52px;
+}
+
+.package__item__button {
+    width: 280px;
+    padding: 25px 54px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #D52027;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 160%; /* 28.8px */
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
