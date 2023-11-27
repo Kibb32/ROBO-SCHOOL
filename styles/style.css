@@ -1,4 +1,4 @@
-body {
+body, * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,17 +12,11 @@ header {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     border: 2px solid red;
     position: relative;
 }
-
-/* header,
-section,
-footer {
-    padding: 120px 0;
-} */
 
 .header-menu {
     border: 1px solid red;
@@ -133,8 +127,8 @@ header .header-menu .header-nav li:first-child {
     background-size: cover;
     position: absolute;
     text-align: center;
-    left: 662px;
-    top: 199px;
+    left: 643px;
+    top: 108px;
     z-index: 2;
     box-sizing: border-box;
 }
@@ -145,19 +139,108 @@ header .header-menu .header-nav li:first-child {
 }
 
 .circle {
-    width: 400px;
-    height:400px;
+    width: 450px;
+    height:450px;
     border: 50px solid white;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
     display: inline-block;
-    left: 613px;
-    bottom: 0px;
+    left: 617px;
+    bottom: 20px;
 }
 
 .testbox {
     width: 600px;
     height: 600px;
     border: 2px solid green;
+}
+
+.school-info {
+    padding: 120px 0; 
+}
+
+.school-info .school-info__resume {
+    border: 1px solid red;
+    margin-left: 30px;
+    width: 891px; 
+    color: #141024;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.school-info .school-info__achievement {
+    border: 1px solid red;
+    display: inline-block;
+    width: 260px; 
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.school-info  .school-info__numbers {
+    color: #D52027;
+    font-family: Jost;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.school-info .school-info__about {
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: Jost;
+}
+
+footer {
+    /* height: 159px;  */
+    background-color: #141024;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+footer .footer-contact {
+    width: 478px; 
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    border: 1px solid red;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+footer .footer-label {
+    border: 1px solid red;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: left;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+
+footer .footer-number {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    border: 1px solid red;
+    display: inline-block;
+    margin-left: 386px;
 }
