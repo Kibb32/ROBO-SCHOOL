@@ -1,13 +1,70 @@
 .form .container {
-    width:1920px;
-    height: 460px;
-    background-color:#D52027 ;
-    margin:0 auto;
     border:1px solid red;
+    margin:0 auto;
+    
+    background-color: #D52027;
+    width: 1920px;
+    height: 460px;
+}
+
+.form form {
+    background-color: 1px solid red;
+    /* border:1px solid black; */
+    width: 500px;
+    height: 300px;
+    margin-left: 980px;
+    margin-top: -270px;
+    margin-bottom: 87px;
+}
+
+.form form input {
+   width: 500px;
+   height: 64px;
+    margin-bottom: 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+}
+
+.form form input[type="submit"] {
+    width: 505px;
+    background-color: #141024;
+    color: white;
+    border:none;
+}
+
+.form form input::placeholder {
+    padding-left: 20px;
 }
 
 .stock {
     color:white;
     font-family: "Jost";
+    /* border:1px solid black; */
+    width: 476px;
+    height: 250px;
+    margin-left: 440px;
+    margin-top: 96px;
 }
-    
+
+.stock h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46.80px;
+}
+
+.stock p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container .img-form {
+    /* border:1px solid black; */
+    width: 1920px;
+    height: 50px;
+    position: relative;
+    top: -105px;
+}
+
+
+
