@@ -1,6 +1,5 @@
 .info {
     margin-bottom: 120px;
-    padding-bottom: 100px;
 }
 
 .info .container {
@@ -35,4 +34,28 @@
 
 .info .info__box__item {
     margin-right: 40px;
+}
+
+.info .info__box__notice {
+    color: #141024;
+    text-align: center;
+    font-size: 16px;
+    line-height: 160%; /* 25.6px */
+    display: inline-flex;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.10);
+    position: absolute;
+    top: 70px;
+    right: 15px;
+}
+
+.info .info_img {
+    position: absolute;
+    top: 135px;
+    right: 240px;
 }
