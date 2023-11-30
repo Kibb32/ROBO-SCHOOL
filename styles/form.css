@@ -1,15 +1,12 @@
 .form .container {
     border:1px solid red;
     margin:0 auto;
-    
     background-color: #D52027;
     width: 1920px;
     height: 460px;
 }
 
 .form form {
-    background-color: 1px solid red;
-    /* border:1px solid black; */
     width: 500px;
     height: 300px;
     margin-left: 980px;
@@ -39,7 +36,6 @@
 .stock {
     color:white;
     font-family: "Jost";
-    /* border:1px solid black; */
     width: 476px;
     height: 250px;
     margin-left: 440px;
@@ -59,7 +55,6 @@
 }
 
 .container .img-form {
-    /* border:1px solid black; */
     width: 1920px;
     height: 50px;
     position: relative;
