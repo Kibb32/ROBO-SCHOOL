@@ -43,9 +43,6 @@ header .logotext h1 {
     margin-bottom: 28px;
 }
 
-
-
-
 header .header-menu .header-contact {
     color: #FFF;
     font-size: 30px;
@@ -148,12 +145,6 @@ header .header-menu .header-nav li:first-child {
     display: inline-block;
     left: 617px;
     bottom: 20px;
-}
-
-.testbox {
-    width: 600px;
-    height: 600px;
-    border: 2px solid green;
 }
 
 .school-info {
