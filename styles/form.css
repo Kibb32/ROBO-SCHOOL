@@ -29,6 +29,8 @@
     margin-bottom: 10px;
     /* border: 1px solid #f6f6f6; */
     border-radius: 5px;
+    padding: 19px 20px;
+    font-size: 18px; 
 }
 
 .form form input[type="submit"] {
@@ -40,7 +42,7 @@
 }
 
 .form form input::placeholder {
-    padding-left: 20px;
+    margin-left: 10px;
 }
 
 .stock {
