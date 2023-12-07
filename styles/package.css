@@ -27,12 +27,13 @@
     margin-bottom: 60px;
 }
 
-.package .pro__item {
+.package__item:hover {
     width: 360px;
     height: 500px;
     border-radius: 20px;
     background: #141024;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    transition: 0.5s;
 }
 
 .package__item {
@@ -41,6 +42,7 @@
     height: 460px;
     border-radius: 20px;
     border: 1px solid rgba(20, 16, 36, 0.20);
+    margin-bottom: 120px;
 }
 
 .package__item:last-child {
@@ -94,7 +96,7 @@
     margin-bottom: 61px;
 }
 
-.package .pro__title {
+.package__item:hover .package__item__title {
     margin-top: 40px;
     color: #FFF;
     text-align: center;
@@ -104,7 +106,7 @@
 
 }
 
-.package .pro__price {
+.package__item:hover .package__item__price {
     margin: 0;
     padding: 0;
     color: #FFF;
@@ -114,7 +116,7 @@
     margin-bottom: 20px;
 }
 
-.package .pro__text {
+.package__item:hover .package__item__text {
     margin: 0;
     padding: 0;
     color: #FFF;
